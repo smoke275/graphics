@@ -1,0 +1,19 @@
+COMP 597 Computer Graphics
+Assignment 2
+Shashwata Mandal
+sum675
+
+Command to compile 
+-------------------
+$ make template
+
+
+Command to run 
+------------------
+$ make run
+
+
+Command to clean
+------------------
+$ make clean
+

@@ -1,0 +1,24 @@
+COMP 597 Computer Graphics
+Assignment 3
+Shashwata Mandal
+sum675
+
+Command to compile 
+-------------------
+$ make template
+
+
+Command to run 
+------------------
+$ make run
+
+
+Command to clean
+------------------
+$ make clean
+
+
+
+The code has an additional option of using GLpoints using line drawing to solve the
+corner case which can be activated by setting the USE_GL_LINES option to 1. But since it is not
+allowed, it has been set to 0

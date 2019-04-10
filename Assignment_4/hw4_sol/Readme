@@ -1,0 +1,35 @@
+COMP 597 Computer Graphics
+Assignment 4
+Shashwata Mandal
+sum675
+
+Command to compile 
+-------------------
+$ make template
+
+
+Command to run 
+------------------
+$ make run
+
+
+Command to clean
+------------------
+$ make clean
+
+
+
+The code works fine for a house obj. It should work fine for any other object. 
+
+For scaling, alpha = 0.5
+For the rolling ball rotation, we take R = 2.0
+
+For translation along xy plane, we use not modifiers and drag it around with the left mouse button
+For translation along xz plane, we use shift modifier and drag it around with the left mouse button
+For rolling ball rotation, we use the middle mouse button
+For scaling, we use not modifiers and drag it around with the right mouse button
+For perspective and orthogonal toggle, we press 'p'
+For reset, we press 'r'
+
+
+

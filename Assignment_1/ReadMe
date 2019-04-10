@@ -1,0 +1,14 @@
+COMP 597 Computer Graphics
+Assignment 1
+Shashwata Mandal
+sum675
+
+Commands to compile and run the file with width=1000, height=800 and filename = image
+
+$ g++ -pedantic -Wall -ansi -o hw1 hw1.cxx
+$ ./hw1 1000 800 image
+$ display image
+
+
+
+

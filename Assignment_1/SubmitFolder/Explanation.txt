@@ -1,0 +1,13 @@
+COMP 597 Computer Graphics
+Assignment 1
+Shashwata Mandal
+sum675
+
+
+Explanation
+*****************************
+The color computation of the raster is done by checking if the 4th bit of the current value of i and j for the pixel (i,j) is 0 or not. If the 4th bit is 0 for either i or j then the value of col becomes 1. However if both of them contain a 0 in the 4th bit or neither of them contain a 0 in the 4th bit, then the value of col becomes 0.
+If col is 1 then r becomes 1.0, g becomes 0.0 and b becomes 1.0.
+In terms of pixel value when max intensity is 255, (r,g,b) becomes (255,0,255) which is magenta
+If col is 0 then r becomes 0.0, g becomes 0.0 and b becomes 0.0.
+In terms of pixel value when max intensity is 255, (r,g,b) becomes (0,0,0) which is magenta
